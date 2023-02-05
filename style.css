@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.header {
+header {
   width: 100%;
   height: 70px;
   background-color: #EC715F;
@@ -46,22 +46,76 @@ ul a {
   background-image: url("images/mv.png");
   background-repeat:no-repeat;
   background-position:50%;
-  background-size:contain;
+  background-size: cover;
+  color: #FAFAFA;
+  text-align: center;
 }
 
-.portfolio-cont {
-  width: 100%;
-  height: 500px;
-  background-color: #ECEFF1;
-  display: flex;
-  justify-content: center;
+.main-visual .heading {
+  padding-top: 200px;
+  font-size: 64px;
+  font-family: Raleway, sans-serif;
+}
+
+.main-visual .mv-text {
+  padding-top: 10px;
+  font-size: 20px;
 }
 
 .portfolio {
-  width: 920px;
-  height: 200px;
-  background-color: green;
+  width: 100%;
+  height: 881px;
+  background-color: #ECEFF1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.pf-explain {
+  width: 1024px;
+  text-align: center;
+}
+
+.pf-explain .heading {
+  padding-top: 90px;
+  font-size: 32px;
+  font-family: Raleway, sans-serif;
+}
+
+h2{
+   position:relative;
+}
+
+h2::after{
+   content:"";
+   display:block;
+   width:70px;
+   height:3px;
+   background-color:#ec715f;
+   margin: 8px 477px 0px;
+}
+
+.pf-text {
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+.pf-pic {
+  width: 920px;
+  height: 600px;
+  padding: 30px 0px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pf-pic img {
+  width: 300px;
+  height: 250px;
+  padding: 5px;
+  object-fit: cover;
+}
+
 
 .feature-cont {
   width: 100%;

@@ -4,3 +4,109 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+
+.header-cont {
+  width: 1024px;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+}
+
+img.logo {
+  width: 156px;
+  height: 70px;
+}
+
+.nav {
+  width: 868px;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  line-height: 70px;
+}
+
+.nav-list {
+  padding: 0px 30px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url("images/mv.png");
+  background-repeat:no-repeat;
+  background-position:50%;
+  background-size:contain;
+}
+
+.portfolio-cont {
+  width: 100%;
+  height: 500px;
+  background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio {
+  width: 920px;
+  height: 200px;
+  background-color: green;
+}
+
+.feature-cont {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.feature {
+  width: 980px;
+  height: 200px;
+  background-color: red;
+}
+
+.profile-cont {
+  width: 100%;
+  height: 500px;
+  background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  width: 1024px;
+  height: 200px;
+  background-color: green;
+}
+
+.contact-cont {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: 800px;
+  height: 200px;
+  background-color: red;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+}
